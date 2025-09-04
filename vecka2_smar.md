@@ -43,3 +43,24 @@ Det är viktigt eftersom det gör det möjligt att:
 - Hålla ordning när man jobbar flera i samma projekt  
 
 Ett exempel: Om jag bygger en app och råkar ta bort en hel funktion av misstag, så kan jag enkelt gå tillbaka till en commit där funktionen fortfarande fanns. Det gör att jag slipper återskapa koden från början och sparar mycket tid.  
+
+---
+
+# Fråga 3
+## 3. Samarbete med GitHub – pull requests, branches och merge
+
+När man samarbetar via GitHub så kan flera utvecklare arbeta på samma projekt utan att trampa varandra på tårna. GitHub fungerar som en gemensam plats där all kod sparas, och där man kan se vem som gjort vad och när.
+
+### Branches
+En branch är som en egen kopia av projektet där man kan testa nya idéer eller bygga en funktion utan att störa huvudkoden (main). På så sätt kan man experimentera och jobba parallellt.
+
+### Pull Requests
+En pull request (PR) används när man vill få in sin branch i huvudprojektet. Då säger man i princip:  
+Till exempel: "Hej team, jag har gjort klart min nya funktion i min branch. Kan ni kolla på den och se om allt ser bra ut innan vi lägger till den i main?"  
+Det gör att teamet kan diskutera, kommentera och se till att koden håller bra kvalitet.
+
+### Merge
+När en pull request har blivit godkänd så "mergas" branchen in i huvudprojektet. Det betyder att de nya ändringarna läggs ihop med main, och hela teamet får tillgång till den uppdaterade koden.
+
+### Reflektion
+Fördelen med det här arbetssättet är att man undviker kaos i koden. Alla kan jobba på sina egna delar, men samtidigt ha kontroll över vad som faktiskt hamnar i slutversionen. Det blir också tydligt vem som gjort vad och varför.
