@@ -31,3 +31,15 @@ Jag hade valt **vattenfallsmetoden** om jag utvecklade appen helt själv, efters
 Men om jag arbetade i ett team hade jag valt **agil metodik**, eftersom arbetet kan delas upp och varje utvecklare kan fokusera på sin egen del av appen.  
 
 ---
+
+# Fråga 2
+## 2. Vad är ett git commit och varför är det viktigt?
+Ett commit i Git är som att spara i projektet. När jag gör ett commit så sparar jag den kod jag skrivit i det tillståndet den är just nu, tillsammans med ett meddelande som beskriver vad jag har ändrat. 
+På så sätt får jag en historik över alla förändringar jag gjort i projektet.  
+
+Det är viktigt eftersom det gör det möjligt att:  
+- Gå tillbaka till en tidigare version om något går fel  
+- Se vem som har gjort vilken ändring  
+- Hålla ordning när man jobbar flera i samma projekt  
+
+Ett exempel: Om jag bygger en app och råkar ta bort en hel funktion av misstag, så kan jag enkelt gå tillbaka till en commit där funktionen fortfarande fanns. Det gör att jag slipper återskapa koden från början och sparar mycket tid.  
